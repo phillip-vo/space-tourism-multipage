@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet, useLoaderData } from "react-router-dom";
 import data from "../data/data.json";
-import Navbar from "../components/Navbar";
+import Navbar from "../navbar";
 
 export const loader = () => {
   return { data };
